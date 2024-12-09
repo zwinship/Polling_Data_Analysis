@@ -8,14 +8,14 @@ import pandas as pd
 import time
 
 ''' 
-The scraping will avoid observations that do not include Harris as one of the canidates
-Orginally I was running into the problem of Bidens polling be collected since he was primarly being polled
+The scraping will avoid observations that do not include Harris as one of the candidates
+Originally I was running into the problem of Biden's polling be collected since he was primarily being polled
 Before he dropped out. If polls are missing on a given day then it will assume the value of the most 
-Recently realesed poll. The logic behind this is that this would be the closeness value that inviduals
-Are seeing when acess the website. If multiple polls are released on the same day it takes the average 
-of those polls. The last debug I added was an error where the selenium driver was going so far back it was
-Including oberservations in Nov. 2023 and including this in the df, so in the code the driver does not include
-oberservations past the time of -90 to November 5, 2024
+Recently released poll. The logic behind this is that this would be the closeness value that individuals
+Are seeing when accessing the website. If multiple polls are released on the same day it takes the average 
+of those polls. The last debug I added was an error where the selenium driver was going so far back that it was
+Including observations in Nov. 2023 and including this in the df, so in the code, the driver does not include
+observations past the time of -90 to November 5, 2024
 '''
 
 
