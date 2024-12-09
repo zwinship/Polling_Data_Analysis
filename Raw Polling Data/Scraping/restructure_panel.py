@@ -1,12 +1,12 @@
 import pandas as pd
 
 '''
-This code will transform the data in Long from the previous python scrapping of closeness into
-Long Panel Data, Orginally the code also was used to scrape the variable dem_trail, mentioned in the paper
-I was having problems with this as for some reason my code was idenitfy which polling number
+This code will transform the data in Long from the previous Python scrapping of closeness into
+Long Panel Data, Originally the code also was used to scrape the variable dem_trail, mentioned in the paper
+I was having problems with this as for some reason my code was identifying which polling number
 Belonged to which candidate, Hence the code was giving the wrong value for dem_trail
-This code leaves the column empty and I personally went it and filled out these values
-I didnt not take me more than an hour and is the easiest solution to solving this problem
+This code leaves the column empty and I personally went to it and filled out these values
+I did not take me more than an hour and is the easiest solution to solving this problem
 '''
 
 
